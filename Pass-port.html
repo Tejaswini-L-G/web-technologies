@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Passport Seva - Registration</title>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <h2>Passport Seva</h2>
+</header>
+
+<!-- Navigation -->
+<nav>
+    <p>
+        Home | About Us | Passport Offices | Visa Services | Contact Us
+    </p>
+    <hr>
+</nav>
+
+<!-- Main Content Area -->
+<main>
+
+    <!-- Sidebar (LEFT) -->
+    
+
+    <!-- Main Section (RIGHT) -->
+    <section>
+
+        <h3>User Registration</h3>
+
+        <p>
+            <b>Important Information:</b>
+            Passport application can be processed at any Passport Seva Kendra.
+        </p>
+
+        <form>
+
+            <!-- Register -->
+            <p>Register to apply at:</p>
+
+            <input type="radio" name="loc"> CPV Delhi
+            <span> (Select this for Diplomatic/Official passport)</span><br>
+
+            <input type="radio" name="loc"> Passport Office
+            <span> (Select this for normal passport)</span><br><br>
+
+            <!-- Passport Office -->
+            Passport Office:
+            <select>
+                <option>-- Select --</option>
+                <option>Bangalore</option>
+                <option>Chennai</option>
+                <option>Delhi</option>
+            </select>
+            <span> Select your nearest office</span>
+            <br><br>
+
+            <!-- Name -->
+            Given Name:
+            <input type="text">
+            <span> First + Middle Name</span>
+            <br><br>
+
+            Surname:
+            <input type="text">
+            <span> Last Name</span>
+            <br><br>
+
+            <!-- DOB -->
+            Date of Birth:
+            <input type="date">
+            <span> DD/MM/YYYY</span>
+            <br><br>
+
+            <!-- Email -->
+            Email ID:
+            <input type="email">
+            <span> Enter valid email</span>
+            <br><br>
+
+            <!-- Login -->
+            Login ID same as Email?
+            <input type="radio" name="login"> Yes
+            <input type="radio" name="login"> No
+            <span> Choose one</span>
+            <br><br>
+
+            Login ID:
+            <input type="text">
+            <span> Check availability</span>
+            <br><br>
+
+            <!-- Password -->
+            Password:
+            <input type="password">
+            <span> Minimum 8 characters</span>
+            <br><br>
+
+            Confirm Password:
+            <input type="password">
+            <span> Re-enter password</span>
+            <br><br>
+
+            <!-- Hint -->
+            Hint Question:
+            <select>
+                <option>-- Select --</option>
+                <option>Your school name?</option>
+                <option>Your pet name?</option>
+            </select>
+            <span> Select a question</span>
+            <br><br>
+
+            Hint Answer:
+            <input type="text">
+            <span> Enter answer</span>
+            <br><br>
+
+            <!-- CAPTCHA -->
+            <p>Enter Characters Displayed:</p>
+
+            <img src="Screenshot 2026-03-31 223600.png" width="150" height="50" alt="captcha">
+            <span> Type the text shown</span>
+            <br><br>
+
+            <input type="text">
+            <span> Case sensitive</span>
+            <br><br>
+
+            <!-- Buttons -->
+            <input type="submit" value="Register">
+            <input type="reset" value="Reset">
+
+        </form>
+
+    </section>
+
+</main>
+
+<!-- Footer -->
+<footer>
+    <hr>
+    <p>© Passport Seva Portal</p>
+</footer>
+
+</body>
+</html>
